@@ -19,10 +19,6 @@ const Game = () => {
         setnextX(!nextX)
     }
 
-    const jumpTo = () => {
-
-    }
-
     const renderMoves = () => {
         return <button style={{ width: "80px", height: "30px", background: "lightblue", color: "blue", outline: "none" }} onClick={() => setboard(Array(9).fill(null))}>Start Game</button>
     }
