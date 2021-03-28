@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
+import Game from '../components/Game'
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1>TIC-TAC-TOE</h1>
+        <Game />
       </main>
 
       <footer className={styles.footer}>
